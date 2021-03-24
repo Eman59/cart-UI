@@ -618,6 +618,11 @@ main section .code-section{
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .details-section .main-card {
+        height: 95vh;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .added-products .inc-dec .fa-plus{
