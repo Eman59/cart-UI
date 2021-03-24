@@ -620,7 +620,7 @@ main section .code-section{
 
 @media only screen and (max-width: 600px) {
     .details-section .main-card {
-        height: 95vh;
+        height: 140vh;
     }
 }
 
@@ -725,16 +725,7 @@ main section .code-section{
 
 @media only screen and (max-width: 600px) {
     .code-section i {
-        position: absolute;
-        font-size: 23px;
-        color: #2faaf1;
-        /* margin-top: 1px; */
-        right: 384px;
-        /* border: 2px solid; */
-        background-color: #80808024;
-        padding: 8px 22px 8px 22px;
-        cursor: pointer;
-        top: 756px;
+        display: none;
     }
 }
 
